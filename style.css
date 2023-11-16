@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+
+body{
+    background-color: rgb(188, 202, 205);
+}
+
+h1{
+    color: rgb(6, 6, 54);
+    font-size: 60px;
+    font-family:'Playfair Display', serif;
+    }
+.name-header{
+    text-align: center;
+    margin: auto;
+    padding: 60px;
+    width: 50%;
+}
+
+p{
+    color:rgb(6, 6, 54);
+    font-family:'Playfair Display', serif;
+    font-size: 30px
+}
