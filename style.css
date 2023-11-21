@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
 
 body{
     background-color: rgb(188, 202, 205);
@@ -15,10 +19,11 @@ h1{
     margin: auto;
     padding: 60px;
     width: 50%;
+    animation: fadeIn 6s;
 }
 
 p{
     color:rgb(6, 6, 54);
     font-family:'Playfair Display', serif;
-    font-size: 30px
+    font-size: 18px
 }
