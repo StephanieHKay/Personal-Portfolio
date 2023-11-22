@@ -50,7 +50,7 @@ a{
     text-decoration: none;
     padding: 6px 8px 6px 16px;
     display: block;
-    
+
 }
 
 a:hover{
@@ -58,4 +58,22 @@ a:hover{
     text-decoration:none;
     padding: 6px 8px 6px 16px;
     display: block; 
+}
+
+
+.content{
+    height:100%; /*  full height*/
+    width:160px; /* set the width of the side bar */
+    position:fixed; /* fixed sidebar*/
+    z-index: 1; /*stays on top */
+    top: 250px;  /* stay on top */
+    left: 400px;
+    overflow-x: hidden; /* disable horizonal scroll*/
+    padding-top: 60px;
+    font-family:'Playfair Display', serif;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    display: block;
 }
