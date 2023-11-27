@@ -31,6 +31,7 @@ p{
 
 .sidebar {
     height:100%; /*  full height*/
+    line-height: 50px;
     width:160px; /* set the width of the side bar */
     position:fixed; /* fixed sidebar*/
     z-index: 1; /*stays on top */
@@ -67,7 +68,43 @@ a:hover{
     position:fixed; /* fixed sidebar*/
     z-index: 1; /*stays on top */
     top: 250px;  /* stay on top */
-    left: 400px;
+    left: 450px;
+    overflow-x: hidden; /* disable horizonal scroll*/
+    padding-top: 60px;
+    font-family:'Playfair Display', serif;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    display: block;
+}
+
+
+.content2{
+    height:100%; /*  full height*/
+    width:160px; /* set the width of the side bar */
+    position:fixed; /* fixed sidebar*/
+    z-index: 1; /*stays on top */
+    top: 560px;  /* stay on top */
+    left: 450px;
+    overflow-x: hidden; /* disable horizonal scroll*/
+    padding-top: 60px;
+    font-family:'Playfair Display', serif;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    display: block;
+}
+
+
+.content3{
+    height:100%; /*  full height*/
+    width:160px; /* set the width of the side bar */
+    position:fixed; /* fixed sidebar*/
+    z-index: 1; /*stays on top */
+    top: 620px;  /* stay on top */
+    left: 450px;
     overflow-x: hidden; /* disable horizonal scroll*/
     padding-top: 60px;
     font-family:'Playfair Display', serif;

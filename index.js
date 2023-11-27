@@ -10,7 +10,7 @@ about_me.addEventListener("mouseover", showAboutMeSection, {once:true});
 function showAboutMeSection(){
     const div = document.querySelector("#content");
     const paragraph = document.createElement("p");
-    const content = document.createTextNode (" I am a software developer, passionate about developing digital solutions.");
+    const content = document.createTextNode (" I am a full stack software developer passionate about developing digital solutions.");
     paragraph.appendChild(content);
     div.appendChild(paragraph);
 
@@ -25,4 +25,36 @@ function showAboutMeSection(){
     x.style.left = 695+'px';
     x.style.top = 400 +'px';
     document.body.appendChild(x);
-}}
+}
+
+
+const skills = document.querySelector("#skills");
+skills.addEventListener("mouseover", showSkillsSection, {once:true});
+
+function showSkillsSection(){
+    const div2 = document.querySelector("#content2");
+    const paragraph2 = document.createElement("p");
+    const content2 = document.createTextNode ('- HTML\n' + '- CSS\n' + '- Javascript\n' + ' - Git\n' + '- Github\n' + '- Python\n' + '- Command line');
+
+    paragraph2.appendChild(content2);
+    div2.appendChild(paragraph2);
+    document.body.appendChild(div2);
+    
+}
+
+
+const projects = document.querySelector("#list_projects");
+projects.addEventListener("mouseover", showProjectsSection, {once:true});
+
+function showProjectsSection(){
+    const div3 = document.querySelector("#content3");
+    const paragraph3 = document.createElement("p");
+    const content3 = document.createTextNode ("- QR code generator  " + "  -Password generator  " + "  - PDF merger");
+
+    paragraph3.appendChild(content3);
+    div3.appendChild(paragraph3);
+    document.body.appendChild(div3);
+}
+
+
+}
