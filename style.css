@@ -14,12 +14,14 @@ h1{
     font-size: 60px;
     font-family:'Playfair Display', serif;
     }
+
 .name-header{
     text-align: center;
     margin: auto;
-    padding: 60px;
+    padding: 50px;
     width: 50%;
     animation: fadeIn 6s;
+    
 }
 
 p{
@@ -36,7 +38,7 @@ p{
     position:fixed; /* fixed sidebar*/
     z-index: 1; /*stays on top */
     top: 200px;  /* stay on top */
-    left: 250px;
+    left: 150px;
     overflow-x: hidden; /* disable horizonal scroll*/
     padding-top: 40px;
     font-family:'Playfair Display', serif;
@@ -67,7 +69,7 @@ a:hover{
     width:160px; /* set the width of the side bar */
     position:fixed; /* fixed sidebar*/
     z-index: 1; /*stays on top */
-    top: 250px;  /* stay on top */
+    top: 200px;  /* stay on top */
     left: 450px;
     overflow-x: hidden; /* disable horizonal scroll*/
     padding-top: 60px;
@@ -85,8 +87,8 @@ a:hover{
     width:160px; /* set the width of the side bar */
     position:fixed; /* fixed sidebar*/
     z-index: 1; /*stays on top */
-    top: 560px;  /* stay on top */
-    left: 450px;
+    top: 480px;  /* stay on top */
+    left: 420px;
     overflow-x: hidden; /* disable horizonal scroll*/
     padding-top: 60px;
     font-family:'Playfair Display', serif;
@@ -103,7 +105,24 @@ a:hover{
     width:160px; /* set the width of the side bar */
     position:fixed; /* fixed sidebar*/
     z-index: 1; /*stays on top */
-    top: 620px;  /* stay on top */
+    top: 540px;  /* stay on top */
+    left: 450px;
+    overflow-x: hidden; /* disable horizonal scroll*/
+    padding-top: 60px;
+    font-family:'Playfair Display', serif;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    display: block;
+}
+
+.content4{
+    height:100%; /*  full height*/
+    width:160px; /* set the width of the side bar */
+    position:fixed; /* fixed sidebar*/
+    z-index: 1; /*stays on top */
+    top: 660px;  /* stay on top */
     left: 450px;
     overflow-x: hidden; /* disable horizonal scroll*/
     padding-top: 60px;
