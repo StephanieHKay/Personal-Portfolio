@@ -51,7 +51,7 @@ courses.addEventListener("click", showCoursesSection, {once:true});
 function showCoursesSection(){
     const div3 = document.querySelector("#content3");
     const paragraph3 = document.createElement("p");
-    const content3 = document.createTextNode ("• Introduction to Web Development: Code First Girl's " + "\u00A0\u00A0\u00A0\u00A0" + "• Introduction to Data and SQL: Code First Girl's " + "\u00A0\u00A0\u00A0\u00A0" + "• Python: Code First Girls"+ "• Learn Python 3: Codecademy" + "\u00A0\u00A0\u00A0\u00A0" + "• Introduction to web development: CBF" + "\u00A0\u00A0\u00A0\u00A0" + "• Introduction to Programming with Python: CS50, Harvard");
+    const content3 = document.createTextNode ("• Introduction to Web Development: Code First Girl's " + "\u00A0\u00A0\u00A0\u00A0" + "• Introduction to Data and SQL: Code First Girl's " + "\u00A0\u00A0\u00A0\u00A0" + "• Python: Code First Girls"+ "• Learn Python 3: Codecademy" + "\u00A0\u00A0\u00A0\u00A0" + "• Introduction to web development: CBF" + "\u00A0\u00A0\u00A0\u00A0" + "• Introduction to Programming with Python: CS50 Harvard");
 
     paragraph3.appendChild(content3);
     div3.appendChild(paragraph3);
