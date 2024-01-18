@@ -35,7 +35,7 @@ skills.addEventListener("click", showSkillsSection, {once:true});
 function showSkillsSection(){
     const div2 = document.querySelector("#content2");
     const paragraph2 = document.createElement("p");
-    const content2 = document.createTextNode ("• HTML " + "\u00A0\u00A0\u00A0" + '• CSS '+ "\u00A0\u00A0\u00A0" + '• Javascript ' + "\u00A0\u00A0\u00A0" + ' • Git ' + "\u00A0\u00A0\u00A0" + '• Github '+ "\u00A0\u00A0\u00A0" + '• Python ' + "\u00A0\u00A0\u00A0"+ '• Command line');
+    const content2 = document.createTextNode ("• HTML " + "\u00A0\u00A0\u00A0" + '• CSS '+ "\u00A0\u00A0\u00A0" + '• Javascript ' + "\u00A0\u00A0\u00A0" + ' • Git ' + "\u00A0\u00A0\u00A0" + '• Github '+ "\u00A0\u00A0\u00A0" + '• Python ' + "\u00A0\u00A0\u00A0"+ '• Command line'+ "\u00A0\u00A0\u00A0"+ "• SQL " + "\u00A0\u00A0\u00A0"+ "• AWS "+ "\u00A0\u00A0\u00A0"+ "• Azure ");
 
     paragraph2.appendChild(content2);
     div2.appendChild(paragraph2);
@@ -51,7 +51,7 @@ courses.addEventListener("click", showCoursesSection, {once:true});
 function showCoursesSection(){
     const div3 = document.querySelector("#content3");
     const paragraph3 = document.createElement("p");
-    const content3 = document.createTextNode ("• Introduction to Web Development: Code First Girl's " + "\u00A0\u00A0\u00A0\u00A0" + "• Introduction to Data and SQL: Code First Girl's " + "\u00A0\u00A0\u00A0\u00A0" + "• Python: Code First Girls"+ "• Learn Python 3: Codecademy" + "\u00A0\u00A0\u00A0\u00A0" + "• Introduction to web development: CBF" + "\u00A0\u00A0\u00A0\u00A0" + "• Introduction to Programming with Python: CS50 Harvard");
+    const content3 = document.createTextNode ("• AiCore Software & Cloud Engineering" + "\u00A0\u00A0\u00A0\u00A0" + "• Introduction to Web Development: Code First Girl's " +"• Introduction to Web Development: Code First Girl's " + "\u00A0\u00A0\u00A0\u00A0" + "• Introduction to Data and SQL: Code First Girl's " + "\u00A0\u00A0\u00A0\u00A0" + "• Python: Code First Girls"+ "• Learn Python 3: Codecademy" + "\u00A0\u00A0\u00A0\u00A0" + "• Introduction to web development: CBF" + "\u00A0\u00A0\u00A0\u00A0" + "• Introduction to Programming with Python: CS50 Harvard");
 
     paragraph3.appendChild(content3);
     div3.appendChild(paragraph3);
@@ -66,7 +66,7 @@ projects.addEventListener("click", showProjectsSection, {once:true});
 function showProjectsSection(){
     const div4 = document.querySelector("#content4");
     const paragraph4 = document.createElement("p");
-    const content4 = document.createTextNode ("• QR code generator  " + "\u00A0\u00A0\u00A0\u00A0" + "• Password generator  " + "\u00A0\u00A0\u00A0\u00A0" + "• PDF merger");
+    const content4 = document.createTextNode ("• Multinational Retail Data Centralisation " + "\u00A0\u00A0\u00A0\u00A0" + "• Azure Database Migration Project " + "\u00A0\u00A0\u00A0\u00A0" + "• QR code generator  " + "\u00A0\u00A0\u00A0\u00A0" + "• Password generator  " + "\u00A0\u00A0\u00A0\u00A0" + "• PDF merger");
 
     paragraph4.appendChild(content4);
     div4.appendChild(paragraph4);
