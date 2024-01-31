@@ -18,12 +18,14 @@ function showAboutMeSection(){
 
     const x = document.createElement("IMG");
     x.setAttribute("src", "python-js.jpg");
-    x.setAttribute("width", "300");
-    x.setAttribute("height", "200");
+    x.setAttribute("width", "15%");
+    x.setAttribute("height", "10%");
+    /*x.setAttribute("class", "responsive")*/
+    x.className= "responsive";
     x.setAttribute("alt", "Picture of code");
     x.style.position = "absolute";
-    x.style.left = 695+'px';
-    x.style.top = 320 +'px';
+    x.style.left = 45 +'%';
+    x.style.top = 44 +'%';
     document.body.appendChild(x);
         event.preventDefault();
 }
